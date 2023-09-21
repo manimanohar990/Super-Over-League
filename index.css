@@ -1,0 +1,47 @@
+.head {
+  font-family: "Roboto";
+  text-align: center;
+  color: #ffffff;
+}
+.img-1 {
+  height: 200px;
+  width: 200px;
+}
+
+/* Write your code here. */
+.container {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  height: 50vw;
+  max-width: 400px;
+}
+.container-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .head {
+    font-family: "Roboto";
+    text-align: center;
+    color: #f8fafc;
+    font-size: 30px;
+  }
+  .container {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #0f172a;
+  }
+  .container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
